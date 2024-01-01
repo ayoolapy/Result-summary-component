@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="scores-box">
+      <div class="scores-box__result">
+        <div class="result-heading"><h3>Your Result</h3></div>
+        <div class="scores-box__result-wrapper">
+          <p class="scores-box__score">76</p>
+          <p class="scores-box__max-result">of 100</p>
+        </div>
+        <div class="scores-box__message"><p>Great</p></div>
+        <div class="scores-box__text">
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="scores-box__summary">
+        <div class="summary-heading"><h3>Summary</h3></div>
+        <div class="summary-score reaction">
+          <div class="summary-score-inner-box">
+            <img
+              class="svg-image"
+              src="./assets/images/icon-reaction.svg"
+              alt="Reaction-icon" /><span class="bold-text reaction-text"
+              >Reaction</span
+            >
+          </div>
+          <div>
+            <span class="bold-text deep-blue">80</span> / <span>100</span>
+          </div>
+        </div>
+        <div class="summary-score memory">
+          <div class="summary-score-inner-box">
+            <img
+              class="svg-image"
+              src="./assets/images/icon-memory.svg"
+              alt="Reaction-icon" /><span class="bold-text memory-text"
+              >Memory</span
+            >
+          </div>
+          <div>
+            <span class="bold-text deep-blue">61</span> / <span>100</span>
+          </div>
+        </div>
+        <div class="summary-score verbal">
+          <div class="summary-score-inner-box">
+            <img
+              class="svg-image"
+              src="./assets/images/icon-verbal.svg"
+              alt="Reaction-icon" /><span class="bold-text verbal-text"
+              >Verbal</span
+            >
+          </div>
+          <div>
+            <span class="bold-text deep-blue">72</span> / <span>100</span>
+          </div>
+        </div>
+        <div class="summary-score visual">
+          <div class="summary-score-inner-box">
+            <img
+              class="svg-image"
+              src="./assets/images/icon-visual.svg"
+              alt="Reaction-icon" /><span class="bold-text visual-text"
+              >Visual</span
+            >
+          </div>
+          <div>
+            <span class="bold-text deep-blue">92</span> / <span>100</span>
+          </div>
+        </div>
+        <button class="continue-btn bold-text">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
